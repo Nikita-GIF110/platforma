@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       } else {
         header.classList.remove('show');
+        menuBtn.classList.toggle('show');
         document.getElementById(blockId).scrollIntoView({
           behavior: "smooth",
           block: "start"
