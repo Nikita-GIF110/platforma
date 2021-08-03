@@ -5,12 +5,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
   for (var i = 0; i < anchorLinks.length; i++) {
     anchorLinks[i].addEventListener('click', function (e) {
-      e.preventDefault();
       var blockId = e.target.getAttribute('href').substr(1);
-      document.getElementById(blockId).scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-      });
+
+      if (window.innerWidth > 992) {
+        document.getElementById(blockId).scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
+      } else {
+        header.classList.remove('show');
+        document.getElementById(blockId).scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
+      }
     });
   }
 

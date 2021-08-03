@@ -1,15 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   const anchorLinks = document.querySelectorAll('.header_navigation_list_link a');
-  for(let i = 0; i <anchorLinks.length; i++) {
+  for(let i = 0; i < anchorLinks.length; i++) {
     anchorLinks[i].addEventListener('click', function(e) {
-      e.preventDefault();
       const blockId = e.target.getAttribute('href').substr(1);
+
+      if(window.innerWidth > 992){
       document.getElementById(blockId).scrollIntoView({
         behavior: "smooth",
         block: "start"
-      })
-    })
+        })
+      }else{
+        header.classList.remove('show');
+        document.getElementById(blockId).scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        })
+      }
+    })  
   }
   
   const menuBtn = document.querySelector('.m-menu-btn');
