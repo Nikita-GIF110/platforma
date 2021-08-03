@@ -1,0 +1,256 @@
+@media screen and (min-width: 992px) {
+  .m-menu-btn {
+    display: none;
+  }
+
+  .header {
+    width: 100%;
+    justify-content: center;
+  }
+  .header_navigation_list {
+    justify-content: space-between;
+  }
+  .header_contacts {
+    justify-content: center;
+  }
+
+  .main_title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main_title h1 {
+    letter-spacing: 15px;
+  }
+  .main_title span {
+    margin: 0 30px 0 20px;
+  }
+  .main .carousel {
+    position: relative;
+  }
+  .main .carousel .carousel-indicators {
+    bottom: 5%;
+  }
+  .main .carousel-control-prev,
+.main .carousel-control-next {
+    bottom: -85%;
+  }
+
+  .series {
+    padding: 165px 0 95px 0;
+  }
+  .series_block {
+    min-height: 650px;
+  }
+
+  .design {
+    padding: 95px 0 60px 0;
+  }
+  .design_title {
+    margin-top: 22%;
+    justify-content: center;
+  }
+  .design_title h3 span img {
+    top: -25%;
+    left: -8%;
+  }
+
+  .factory_info img {
+    min-height: 400px;
+  }
+  .factory_info_block {
+    width: 100%;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .factory_info_block span {
+    margin-left: 0.3rem;
+  }
+
+  .exsclusive {
+    padding: 170px 0 250px 0;
+  }
+  .exsclusive_content_slider .carousel-control-next {
+    right: 7px;
+    opacity: 1;
+  }
+  .exsclusive_content_slider .carousel-control-prev {
+    left: -10px;
+    opacity: 1;
+  }
+
+  .price {
+    padding: 130px 0;
+  }
+  .price_content .form_item_customized::after {
+    left: 10%;
+  }
+  .price_content .form_button_block {
+    align-items: center;
+  }
+
+  .partners {
+    padding: 70px 0 90px 0;
+  }
+  .partners_content_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .partners_content_logo_img {
+    text-align: left;
+    align-items: center;
+  }
+
+  .faq {
+    padding: 190px 0;
+  }
+
+  .more {
+    padding: 150px 0;
+  }
+  .more_content_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .footer_content {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 991px) {
+  .m-menu-btn {
+    display: block;
+  }
+
+  .header {
+    background-color: #f6f6f6;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: -100%;
+    width: 100vw;
+    height: 100vh;
+    --bs-gutter-x: 0;
+  }
+  .header_navigation_list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  .header_contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    min-height: 195px;
+  }
+  .main_title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  .main_title h1 {
+    letter-spacing: 5px;
+  }
+  .main_title span {
+    margin: 0 5px 0 5px;
+  }
+  .main .carousel {
+    position: relative;
+  }
+  .main .carousel .carousel-indicators {
+    bottom: 0;
+  }
+  .main .carousel-control-prev,
+.main .carousel-control-next {
+    display: none;
+  }
+
+  .series {
+    padding: 50px 0;
+  }
+
+  .design {
+    padding: 50px 0;
+  }
+  .design_title {
+    margin-top: 15%;
+  }
+  .design_title h3 span img {
+    top: -15%;
+    left: -7%;
+  }
+
+  .factory_info img {
+    min-height: 500px;
+  }
+  .factory_info_block {
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  .factory_info_block_card {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .exsclusive {
+    padding: 50px 0 50px 0;
+  }
+  .exsclusive_content_slider .carousel-control-next {
+    right: 25px;
+    opacity: 1;
+  }
+  .exsclusive_content_slider .carousel-control-prev {
+    left: 5px;
+    opacity: 1;
+  }
+
+  .price {
+    padding: 50px 0;
+  }
+  .price_content .form_item_customized::after {
+    left: 15%;
+  }
+  .price_content .form_button_block {
+    justify-content: center;
+  }
+
+  .partners {
+    padding: 50px 0;
+  }
+  .partners_content_logo_img {
+    justify-content: center;
+  }
+
+  .faq {
+    padding: 50px 0;
+  }
+
+  .more {
+    padding: 50px 0;
+  }
+  .more_content_description {
+    text-align: center;
+  }
+
+  .footer_content {
+    justify-content: center;
+    text-align: center;
+  }
+  .footer_content_contacts {
+    text-align: left;
+  }
+}
