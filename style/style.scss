@@ -120,6 +120,7 @@ body {
 .header.show {
   position: fixed;
   right: 0;
+  transition: 0.5s;
 }
 //main
 .main {

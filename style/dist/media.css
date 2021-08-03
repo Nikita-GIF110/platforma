@@ -135,7 +135,7 @@
     position: absolute;
     z-index: 10;
     top: 0;
-    right: -100%;
+    right: -120%;
     width: 100vw;
     height: 100vh;
     --bs-gutter-x: 0;
