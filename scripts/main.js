@@ -1,13 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  /*let mask = document.querySelector('.mask');
-  window.addEventListener('load', function() {
-    mask.classList.add('hide');
-    setTimeout(function(){
-      mask.remove()
-    }, 500)
-  })*/
-
   const anchorLinks = document.querySelectorAll('.header_navigation_list_link a');
   for(let i = 0; i < anchorLinks.length; i++) {
     anchorLinks[i].addEventListener('click', function(e) {
