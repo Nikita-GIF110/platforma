@@ -12,7 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
-.mask {
+/*.mask {
   position: fixed;
   z-index: 25;
   top: 0;
@@ -62,7 +62,7 @@ body {
 .mask.hide {
   opacity: 0;
   transition: 0.5s;
-}
+}*/
 .wrapper {
   overflow-x: hidden;
 }

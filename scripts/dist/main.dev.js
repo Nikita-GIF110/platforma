@@ -1,13 +1,13 @@
 "use strict";
 
 document.addEventListener('DOMContentLoaded', function () {
-  var mask = document.querySelector('.mask');
-  window.addEventListener('load', function () {
+  /*let mask = document.querySelector('.mask');
+  window.addEventListener('load', function() {
     mask.classList.add('hide');
-    setTimeout(function () {
-      mask.remove();
-    }, 500);
-  });
+    setTimeout(function(){
+      mask.remove()
+    }, 500)
+  })*/
   var anchorLinks = document.querySelectorAll('.header_navigation_list_link a');
 
   for (var i = 0; i < anchorLinks.length; i++) {
